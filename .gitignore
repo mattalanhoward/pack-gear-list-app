@@ -1,13 +1,7 @@
-# Node modules
+# Node.js
 node_modules/
-client/node_modules/
-server/node_modules/
-
-# Logs
-*.log
-
-# dotenv
-.env
-
-# Build
-client/build/
+# Env
+*.env
+# Build outputs
+dist/
+build/
