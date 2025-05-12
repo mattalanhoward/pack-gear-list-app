@@ -2,6 +2,8 @@ import mongoose from 'mongoose';
 
 const gearItemSchema = new mongoose.Schema({
   category: { type: String, required: true },
+  brand:    { type: String },
+  itemType:    { type: String }, 
   name: { type: String, required: true },
   description: String,
   weight: { type: Number, required: true }, // stored in grams
